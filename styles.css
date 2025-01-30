@@ -1,0 +1,151 @@
+body {
+    background-color: #0c0c0c;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    color: #080808;
+  }
+.meal{
+  background-color: #fff;
+  margin: 40px;
+  }
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(70%); 
+  
+  }
+
+  header {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+  }
+  
+
+  h1 {
+    padding-top: 200px;
+    color: #f3f2f2;
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+  }
+  
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+    padding-bottom: 90px;
+  }
+  
+
+  input[type="text"] {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px;
+    width: 300px;
+  }
+  .btn {
+    cursor: pointer;
+  }
+  button[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 20px;
+    transition: background-color 0.2s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  #recipes {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0;
+  }
+  
+  #recipes > div {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  #recipes img {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+  }
+  
+  #recipes h3 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  #recipes ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #recipes li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  #recipes a {
+    background-color: #007bff;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+  
+  #recipes a:hover {
+    background-color: #0069d9;
+  }
+
+  .searchButton {
+    color: white;
+    position: center;
+    right: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--gradient-2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
+    border: 0;
+    display: inline-block;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    align-items: center;
+  }
+  
+  .searchbutton img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }

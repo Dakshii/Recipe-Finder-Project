@@ -45,5 +45,5 @@ document.querySelector('.searchButton').addEventListener('click', () => {
   } else {
       alert('Please enter an ingredient.');
   }
-});
-
+}
+);
